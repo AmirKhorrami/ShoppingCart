@@ -1,0 +1,39 @@
+.productItemInCart {
+  border-radius: 5px;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  border: 1px dotted silver;
+  text-align: center;
+}
+
+.productItemInCart .cardLeft {
+  height: 100px;
+}
+.productItemInCart .cardLeft img {
+  max-height: 100%;
+}
+
+.productItemInCart .cardRight {
+  height: 100px;
+}
+.cardMiddle button {
+  all: unset;
+  width: 30px;
+  padding: 5px 10px;
+  border: 1px solid silver;
+  margin: 0 10px;
+  border-radius: 5px;
+}
+.cardMiddle span {
+  display: inline-block;
+  width: 30px;
+}
+
+.cardLeft,
+.cardMiddle,
+.cardRight {
+  width: 33.33%;
+}

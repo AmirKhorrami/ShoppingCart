@@ -1,0 +1,40 @@
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(190, 235, 255);
+    height: 100px;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0 20px;
+    cursor: pointer;
+    font-size: 18px;
+} 
+
+.bag{
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    background: #0d6efd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 10px;
+}
+
+.bag span{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: rgb(255, 255, 255);
+    color: rgb(45, 45, 45);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -8px;
+    right: -8px;
+}
